@@ -1,0 +1,37 @@
+﻿Build started 11/10/2015 9:46:29 PM.
+     1>Project "C:\Users\CiscoBandit\documents\visual studio 2015\Projects\rasterizer\rasterizer\rasterizer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp frustum.cpp Matrix4.cpp sphere.cpp Vector3.cpp Vector4.cpp
+         Vector4.cpp
+         Vector3.cpp
+         sphere.cpp
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\sphere.cpp(189): warning C4101: 'yZ': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\sphere.cpp(188): warning C4101: 'xZ': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\sphere.cpp(385): warning C4101: 'yPt': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\sphere.cpp(386): warning C4101: 'yLineSeg': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\sphere.cpp(384): warning C4101: 'lineSeg': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\sphere.cpp(556): warning C4101: 'mag': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\sphere.cpp(971): warning C4101: 'circum': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\sphere.cpp(1025): warning C4101: 'return2': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\sphere.cpp(1024): warning C4101: 'return1': unreferenced local variable
+         Matrix4.cpp
+         frustum.cpp
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\frustum.cpp(59): warning C4101: 'temp2': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\frustum.cpp(59): warning C4101: 'temp3': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\frustum.cpp(59): warning C4101: 'temp4': unreferenced local variable
+     1>c:\users\ciscobandit\documents\visual studio 2015\projects\rasterizer\rasterizer\frustum.cpp(59): warning C4101: 'temp': unreferenced local variable
+         Camera.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\CiscoBandit\documents\visual studio 2015\Projects\rasterizer\Debug\rasterizer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\CiscoBandit\documents\visual studio 2015\Projects\rasterizer\Debug\rasterizer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\CiscoBandit\documents\visual studio 2015\Projects\rasterizer\Debug\rasterizer.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\frustum.obj
+         Debug\Matrix4.obj
+         Debug\sphere.obj
+         Debug\Vector3.obj
+         Debug\Vector4.obj
+         rasterizer.vcxproj -> C:\Users\CiscoBandit\documents\visual studio 2015\Projects\rasterizer\Debug\rasterizer.exe
+     1>Done Building Project "C:\Users\CiscoBandit\documents\visual studio 2015\Projects\rasterizer\rasterizer\rasterizer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.48
